@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 40px;
+    position:sticky;
+    top:0;
+    z-index: 1000;
+    background:rgba(54, 41, 41, 0.5);
+
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:white;
+}
+
+body{
+    background-color: #1b1b1b;
+    color:white;
+}
+
+.front h1{
+    font-size:50px;
+    margin:80px;
+    padding:30px;
+}
+
+.front img{
+    width:700px;
+    height:500px;
+    margin:20px 10px 10px 10px;
+    text-align:right;
+    border-radius: 10px;
+}
+
+.front{
+    display:flex;
+    flex-direction:row;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    height:300px;
+    width:200px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.front button{
+    display: flex;
+    flex-direction: column;
+    padding:15px 15px;
+    color:black;
+    background-color: red;
+    border-radius:15px;
+    font-weight: bold;
+    border: none;
+}
+
+.front a{
+    text-decoration: none;
+}
+
+.front button:hover{
+    cursor:pointer;
+    background-color: yellowgreen;
+    color:white;
+}
+
+footer{
+    background-color:rgb(216, 203, 203);
+    color: black;
+    text-align: center;
+    padding:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
